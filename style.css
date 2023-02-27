@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 94px;
 }
 
 h2 {
@@ -94,7 +94,6 @@ p {
   display: flex;
   max-width: 100%;
   height: auto;
-
 }
 
 .project-link {
