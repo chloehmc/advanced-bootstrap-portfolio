@@ -30,7 +30,6 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -50,6 +49,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  margin-bottom: 60px;
 }
 
 .contact-link {
@@ -94,4 +94,20 @@ p {
   display: flex;
   max-width: 100%;
   height: auto;
+
+}
+
+.project-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.img-fluid.shadow {
+  box-shadow: var(--box-shadow);
+  border-width: 8px !important;
 }
